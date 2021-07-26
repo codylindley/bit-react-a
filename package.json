@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "bit status": "bit status",
+    "bit compile": "bit status",
+    "bit start": "bit status",
+    "bit watch": "bit watch"
+  },
+  "name": "root"
+}
