@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -10,7 +10,7 @@
     /**
      * the name of the component workspace. used for development purposes.
      **/
-    "name": "React UI Components",
+    "name": "Bit React A",
     /**
      * set the icon to be shown on the Bit server.
      **/
@@ -26,7 +26,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "bitcody.ui-components"
+    "defaultScope": "bitcody.bit-react-a"
   },
   /**
    * main configuration for component dependency resolution.
@@ -52,9 +52,7 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": [
-      "**/*.spec.ts"
-    ],
+    "devFilePatterns": ["**/*.spec.ts"],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
@@ -70,11 +68,14 @@
     /**
      * "*" is a special rule which applied on all components in the workspace.
      **/
-    "*": {
+    "bit-react-a/ui-components": {
       /**
        * uncomment to apply the chosen environment on all components.
        **/
       "teambit.react/react": {}
+    },
+    "bit-react-a/themes": {
+      "teambit.harmony/node": {}
     }
   }
 }

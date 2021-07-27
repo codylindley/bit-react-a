@@ -13,18 +13,18 @@ importers:
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
       '@testing-library/react': registry.npmjs.org/@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2
-      '@types/jest': registry.npmjs.org/@types/jest/26.0.24
+      '@types/jest': registry.npmjs.org/@types/jest/26.0.20
       '@types/node': registry.npmjs.org/@types/node/12.20.4
-      '@types/react': registry.npmjs.org/@types/react/17.0.14
+      '@types/react': registry.npmjs.org/@types/react/17.0.15
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.9
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
     specifiers:
       '@babel/runtime': 7.12.18
       '@styled-system/prop-types': 5.1.5
       '@testing-library/react': 12.0.0
-      '@types/jest': ^26.0.24
+      '@types/jest': 26.0.20
       '@types/node': 12.20.4
-      '@types/react': ^17.0.14
+      '@types/react': ^17.0.15
       '@types/react-dom': ^17.0.9
       '@types/testing-library__jest-dom': 5.9.5
       core-js: ^3.15.2
@@ -35,6 +35,18 @@ importers:
       styled-components: 5.3.0
       styled-system: 5.1.5
       styled-tools: 1.7.2
+  bit-react-a/themes/default:
+    specifiers: {}
+  bit-react-a/ui-components/primitive/box:
+    specifiers: {}
+  bit-react-a/ui-components/primitive/button:
+    specifiers: {}
+  bit-react-a/ui-components/primitive/text:
+    specifiers: {}
+  theme/default:
+    specifiers: {}
+  themes/default:
+    specifiers: {}
   ui-components/primitive/box:
     specifiers: {}
   ui-components/primitive/button:
@@ -533,6 +545,17 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/istanbul-reports/-/istanbul-reports-3.0.1.tgz
     version: 3.0.1
+  registry.npmjs.org/@types/jest/26.0.20:
+    dependencies:
+      jest-diff: registry.npmjs.org/jest-diff/26.6.2
+      pretty-format: registry.npmjs.org/pretty-format/26.6.2
+    dev: true
+    name: '@types/jest'
+    resolution:
+      integrity: sha512-9zi2Y+5USJRxd0FsahERhBwlcvFh6D2GLQnY2FH2BzK8J9s9omvNHIbvABwIluXa0fD8XVKMLTO0aOEuUfACAA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/jest/-/jest-26.0.20.tgz
+    version: 26.0.20
   registry.npmjs.org/@types/jest/26.0.24:
     dependencies:
       jest-diff: registry.npmjs.org/jest-diff/26.6.2
@@ -562,7 +585,7 @@ packages:
     version: 15.7.4
   registry.npmjs.org/@types/react-dom/17.0.9:
     dependencies:
-      '@types/react': registry.npmjs.org/@types/react/17.0.14
+      '@types/react': registry.npmjs.org/@types/react/17.0.15
     dev: true
     name: '@types/react-dom'
     resolution:
@@ -570,7 +593,7 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.9.tgz
     version: 17.0.9
-  registry.npmjs.org/@types/react/17.0.14:
+  registry.npmjs.org/@types/react/17.0.15:
     dependencies:
       '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.4
       '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.2
@@ -578,10 +601,10 @@ packages:
     dev: true
     name: '@types/react'
     resolution:
-      integrity: sha512-0WwKHUbWuQWOce61UexYuWTGuGY/8JvtUe/dtQ6lR4sZ3UiylHotJeWpf3ArP9+DSGUoLY3wbU59VyMrJps5VQ==
+      integrity: sha512-uTKHDK9STXFHLaKv6IMnwp52fm0hwU+N89w/p9grdUqcFA6WuqDyPhaWopbNyE1k/VhgzmHl8pu1L4wITtmlLw==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/react/-/react-17.0.14.tgz
-    version: 17.0.14
+      tarball: https://registry.npmjs.org/@types/react/-/react-17.0.15.tgz
+    version: 17.0.15
   registry.npmjs.org/@types/scheduler/0.16.2:
     dev: true
     name: '@types/scheduler'
